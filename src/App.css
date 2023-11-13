@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  opacity: 1;
+}
+
+.title {
+padding : 15px;
+font-size : 25px;
+font-weight: bolder;
+font-style:normal;
+background-color: rgb(148, 139, 148);
+font-family:'Times New Roman', Times, serif
+}
+.nav-styles{
+  padding : 15px;
+  width : 200%;
+  background-color: rgb(208, 173, 231);
+  display: flex;
+  justify-content: flex-start;
+  gap :1rem;
+}
+.nav-buttons{
+  border: 1px solid rgb(31, 30, 30);
+  color: white;
+  padding : 12px;
+  border-radius : 5px;
+  background-color: inherit;
+}
+.nav-buttons:hover{
+  background-color: black;
+  border: none;
+}
+.view-btn:hover{
+ background-color: rgb(200, 236, 126);
+ color : white;
+}
+
+footer{
+
+  padding: 17px;
+  font-size: medium;
+  font-weight: bolder;
+  width : 100%;
+  background-color: rgb(191, 144, 223);
+  font-family:'Times New Roman', Times, serif
+}
+.user-content{
+margin : 12px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 3rem;
+font-family:'Times New Roman', Times, serif
+
+}
+.user-card{
+  background-color: #b98e8ecb;
+  border-radius : 5px;
+  width : 380px;
+  height : 320px;
+}
+.btn{
+  padding: 10px;
+  margin : 5px;
+  border : none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size : 11px;
+ 
+}
+.edit-btn:hover{
+  background-color: rgb(158, 122, 190);
+  font-family:'Times New Roman', Times, serif;
+ 
+}
+
+.del-btn:hover{
+  background-color: rgb(230, 120, 146);
+  color : white;
+  font-family:'Times New Roman', Times, serif;
+ }
+ .childred{
+  height : 100vh;
+  margin : 2vh;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+ .dashboard{
+  display: flex;
+  flex-direction: coloumn;
+
+ }
+ .side-bar{
+  border: 1px solid rgb(189, 156, 156);
+  height:  100vh;
+  width : 15%;
+  background-color:  blue;
+ }
+
+ .main-content{
+  background-color: red;
+  height: 100vh;
+  width : 85%;
+ }
